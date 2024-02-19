@@ -18,7 +18,7 @@ pipeline{
 
             steps{
 
-                sh "git clone https://github.com/kavyashsd12/Kavya-/simple-java-maven-app.git"
+                sh "git clone https://github.com/kavyashsd12/Kavya-.git"
 
             }
 
@@ -28,7 +28,7 @@ pipeline{
 
             steps {
 
-                dir("simple-java-maven-app") {
+                dir("Kavya-") {
 
                     sh "mvn clean install"
 
