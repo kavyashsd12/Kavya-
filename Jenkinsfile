@@ -18,7 +18,7 @@ pipeline{
 
             steps{
 
-                sh "git clone https://github.com/kavyashsd12/Kavya-.git/simple-java-maven-app"
+                sh "git clone https://github.com/kavyashsd12/Kavya-/simple-java-maven-app.git"
 
             }
 
